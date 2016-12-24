@@ -18,7 +18,7 @@ rcmemoize.middleware.memoization_middleware.RequestCycleMemoizationMiddleware
 
 # Usage
 ```bash
-from rcmemoize.memoization.request_cycle_memoize
+from rcmemoize.memoization import request_cycle_memoize
 
 @request_cycle_memoize()
 def your_method(*args,**kwargs):

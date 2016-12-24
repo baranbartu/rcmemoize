@@ -9,6 +9,11 @@ pip install rcmemoize
 ```
 
 # Configuration
+##### Add INSTALLED_APPS
+
+```bash
+rcmemoize
+```
 
 ##### Add bottom of the of the MIDDLEWARE_CLASSES
 
